@@ -1,0 +1,8 @@
+*.tgz
+*.csv
+*.o
+hello_client
+.env
+lib
+clib_openiap.h
+deps
