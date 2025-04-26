@@ -2,7 +2,6 @@
 *.csv
 *.o
 .env
-lib
 clib_openiap.h
 deps
 .github

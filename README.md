@@ -29,4 +29,7 @@ gcc main.c -Llib -lopeniap-linux-x64 -Wl,-rpath=lib -o hello_client && ./hello_c
 
 # to static linked, use
 make STATIC=1 && ./hello_client
+
+# using nixos? Then path will be break inside docker, so we can use patchelf to "fix" it
+make dockerbuild
 ```
