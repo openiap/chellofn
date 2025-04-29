@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
-#include "clib_openiap.h"
+#include "include/clib_openiap.h"
 
 // Default workitem queue
 const char* DEFAULT_WIQ = "test2queue";

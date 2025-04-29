@@ -6,3 +6,4 @@ hello_client
 lib
 clib_openiap.h
 deps
+/include
